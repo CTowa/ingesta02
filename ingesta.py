@@ -50,6 +50,6 @@ try:
                       aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"))
     
     s3.upload_file(csv_file, "ctowa-output-02", csv_file)
-    print("✅ Archivo subido correctamente a S3: yit-output-02")
+    print("✅ Archivo subido correctamente a S3: ctowa-output-02")
 except Exception as e:
     print(f"❌ Error al subir archivo a S3: {e}")
