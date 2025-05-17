@@ -7,7 +7,7 @@ import os
 try:
     conn = pymysql.connect(
         host='mysql_datos',   # nombre del contenedor si usas Docker Compose
-        port=3306,
+        port=3307,
         user='root',
         password='utec',
         database='empresa'
